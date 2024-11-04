@@ -39,7 +39,10 @@ int main() {
 	// can list them like araay. order matters: FloorHockeyTeam team2 = {"Dinos", 9, 0, 1, 31}; 
 
 	cout << teams[0].name << " goals for: " << teams[0].totalGoalsFor << endl;
+	cout << "\tWin Percent: " << calculateWinPercent(teams[0]);
+
 	cout << teams[1].name << " goals for: " << teams[1].totalGoalsFor << endl;
+	cout << "\tWin Percent: " << calculateWinPercent(teams[1]);
 
 	//cout << team1.name << " goals for: " << team1.totalGoalsFor << endl;
 
